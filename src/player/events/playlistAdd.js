@@ -58,7 +58,7 @@ module.exports = class PlaylistAdd extends Event {
                 .setTitle(`${playlist.name}`)
                 .setURL(`${playlist.url}`)
                 .setThumbnail(`${playlist.songs[0].thumbnail}`)
-                .setColor("#2f3136")
+                .setColor("#d5c3b9")
                 .addFields(
                     {
                         name: "Author",
