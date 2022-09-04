@@ -114,7 +114,7 @@ module.exports = class Roles extends Interaction {
             let emb = new EmbedBuilder()
                 .setTitle("DJ Roles list")
                 .setThumbnail(int.guild.iconURL({size: 2048}))
-                .setColor("#2f3136")
+                .setColor("#d5c3b9")
                 .setDescription(`${djs.map((m) => `<@&${m}>`).join(" ")}`)
                 .setTimestamp();
 
