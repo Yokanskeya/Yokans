@@ -48,7 +48,7 @@ module.exports = class SongAdd extends Event {
                     .setAuthor({name: ` ${user.username} `, iconURL: user.displayAvatarURL()})
                     .setTitle(`${song.name}`)
                     .setURL(`${song.url}`)
-                    .setColor("#2f3136")
+                    .setColor("#d5c3b9")
                     .setThumbnail(song.thumbnail)
                     .addFields(
                         {
@@ -72,7 +72,7 @@ module.exports = class SongAdd extends Event {
                     .setAuthor({name: ` ${user.username} `, iconURL: user.displayAvatarURL()})
                     .setTitle(`${song.name}`)
                     .setURL(`${song.url}`)
-                    .setColor("#2f3136")
+                    .setColor("#d5c3b9")
                     .setThumbnail(song.thumbnail)
                     .addFields(
                         {
