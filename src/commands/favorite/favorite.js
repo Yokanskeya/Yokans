@@ -161,7 +161,7 @@ module.exports = class Fav extends Interaction {
                     let emb = new EmbedBuilder()
                         .setTitle(`🔔 Favorite Songs`)
                         .setThumbnail(int.user.displayAvatarURL({size: 2048, dynamic: true}))
-                        .setColor("#2f3136")
+                        .setColor("#d5c3b9")
                         .setDescription(`${x.map((s) => `[${s.index}. ${s.name}](${s.url})`).join("\n")}`)
                         .setTimestamp();
 
@@ -174,7 +174,7 @@ module.exports = class Fav extends Interaction {
                 let emb = new EmbedBuilder()
                     .setTitle(`🔔 Favorite Songs`)
                     .setThumbnail(int.user.displayAvatarURL({size: 2048}))
-                    .setColor("#2f3136")
+                    .setColor("#d5c3b9")
                     .setDescription(`${sng.map((s, i) => `[${i + 1}. ${s.name}](${s.url})`).join("\n")}`)
                     .setTimestamp();
 
