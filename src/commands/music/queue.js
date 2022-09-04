@@ -73,7 +73,7 @@ module.exports = class Queue extends Interaction {
                     .join("\n");
                 let emb = new EmbedBuilder()
                     .setTitle("🎵 Songs list")
-                    .setColor("#2f3136")
+                    .setColor("#d5c3b9")
                     .setThumbnail(int.guild.iconURL())
                     .setDescription(
                         `**▶️ Now playing**\n[**${queue.nowPlaying.name}**](${queue.nowPlaying.url})\n\n${songs}`
@@ -93,7 +93,7 @@ module.exports = class Queue extends Interaction {
 
             let emb = new EmbedBuilder()
                 .setTitle("🎵 Songs list")
-                .setColor("#2f3136")
+                .setColor("#d5c3b9")
                 .setThumbnail(int.guild.iconURL())
                 .setDescription(
                     `**▶️ Now playing**\n[**${queue.nowPlaying.name}**](${queue.nowPlaying.url})\n\n${songs}`
