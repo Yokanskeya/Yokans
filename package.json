@@ -1,0 +1,33 @@
+{
+  "name": "YokansBot",
+  "version": "1.0.0",
+  "description": "discord.js music bot w/mongoDB",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.0.0",
+    "bufferutil": "^4.0.6",
+    "chalk": "^4.0.0",
+    "discord-api-types": "^0.36.2",
+    "discord-music-player": "^9.0.2",
+    "discord.js": "^14.0.3",
+    "discordjs-button-pagination": "^3.0.1",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.4.5",
+    "pretty-ms": "^8.0.0",
+    "seconds-formater": "^1.2.0",
+    "utf-8-validate": "^5.0.9",
+    "util": "^0.12.4"
+  }
+}
