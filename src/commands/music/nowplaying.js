@@ -67,7 +67,7 @@ module.exports = class NowPlaying extends Interaction {
         let emb = new EmbedBuilder()
             .setTitle(song.name)
             .setURL(song.url)
-            .setColor("#2f3136")
+            .setColor("#d5c3b9")
             .setThumbnail(song.thumbnail)
             .setDescription(
                 `${progressBar(
