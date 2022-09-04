@@ -75,7 +75,7 @@ module.exports = class Search extends Interaction {
 
         let emb = new EmbedBuilder()
             .setTitle("Search Results")
-            .setColor("#2f3136")
+            .setColor("#d5c3b9")
             .setDescription(
                 `💿 Send the track number\n\n` +
                 results.map((r, i) => `[${i + 1}. ${r.name}](${r.url})`).join("\n")
