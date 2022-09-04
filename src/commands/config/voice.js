@@ -122,7 +122,7 @@ module.exports = class Voice extends Interaction {
             let emb = new EmbedBuilder()
                 .setTitle("Allowed voice channels")
                 .setThumbnail(int.guild.iconURL({size: 2048}))
-                .setColor("#2f3136")
+                .setColor("#d5c3b9")
                 .setDescription(`${vcs.map((m) => `<#${m}>`).join(" ")}`)
                 .setTimestamp();
 
