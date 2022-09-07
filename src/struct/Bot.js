@@ -124,7 +124,4 @@ module.exports = class Bot extends Client {
         await this.loadPlayer()
         return super.login(token);
     }
-    
-    const { AutoPoster } = require('topgg-autoposter')
-    const poster = AutoPoster('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEwMTU2Mzc1NDQwNzcxMTk2NjUiLCJib3QiOnRydWUsImlhdCI6MTY2MjU4OTUxMH0.7fhASxkq-Dmf-2czGroe-IFHxpavclePeRml6LUZO5w', client)
 };
