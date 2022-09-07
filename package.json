@@ -28,6 +28,7 @@
     "pretty-ms": "^8.0.0",
     "seconds-formater": "^1.2.0",
     "utf-8-validate": "^5.0.9",
-    "util": "^0.12.4"
+    "util": "^0.12.4",
+    "topgg-autoposter": "^2.0.1"
   }
 }
