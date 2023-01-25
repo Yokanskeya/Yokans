@@ -1,2 +1,2 @@
 # Yokans
-Simplify your music with slash commands and play high quality songs.
+🎵 Discord music bot based discord.js v14 with slash commands
